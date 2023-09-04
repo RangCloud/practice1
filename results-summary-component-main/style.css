@@ -1,0 +1,37 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.Box {
+  position: relative;
+  width: 1400px;
+  height: 800px;
+  margin: auto;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.innerBox {
+  position: absolute;
+  display: inline-block;
+  border-radius: 30px;
+  box-shadow: 15px 15px 30px -30px #000;
+  width: 750px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introBox {
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  position: absolute;
+  border-radius: 8%;
+  width: 375px;
+  height: 500px;
+}
+
+.introBox .intro_P1 {
+  text-align: center;
+  font-size: 25px;
+}
