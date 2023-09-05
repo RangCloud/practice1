@@ -31,7 +31,102 @@ body {
   height: 500px;
 }
 
+.introBox_Cir {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
 .introBox .intro_P1 {
+  /* Your Result */
   text-align: center;
   font-size: 25px;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.8;
+}
+
+.introBox_Cir .Cir_P2 {
+  /* 76 */
+  color: hsl(0, 0%, 100%);
+  font-size: 60px;
+  display: inline-block;
+  margin: 0 auto;
+  transform: translate(0%, 50%);
+}
+
+.introBox_Cir .Cir_P3 {
+  /*  of 100 */
+  color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  transform: translate(0%, 150%);
+  opacity: 0.5;
+}
+
+.intro_P4 {
+  /* Great */
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 5 auto;
+  font-size: 25px;
+}
+
+.intro_P5 {
+  /* You scored ~ tests */
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 10 auto;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.infoBox {
+  right: 0%;
+  position: absolute;
+  border-radius: 8%;
+  width: 375px;
+  height: 500px;
+}
+
+#infoMenu {
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 60px;
+}
+
+.infoBox .Reaction {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  border-radius: 13px;
+}
+
+.infoBox .Memory {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  border-radius: 13px;
+}
+
+.infoBox .Verbal {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  border-radius: 13px;
+}
+
+.infoBox .Visual {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  border-radius: 13px;
+}
+
+.infoBox .Continue {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
 }
