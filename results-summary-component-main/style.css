@@ -3,6 +3,7 @@ body {
   margin: 0%;
 }
 
+/* main size, font, location */
 .Box {
   position: relative;
   width: 1400px;
@@ -11,6 +12,7 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
 }
 
+/* leftbox set */
 .innerBox {
   position: absolute;
   display: inline-block;
@@ -86,6 +88,7 @@ body {
   opacity: 0.8;
 }
 
+/* rightbox set */
 .infoBox {
   right: 0%;
   position: absolute;
@@ -145,4 +148,88 @@ body {
   border-radius: 50px;
   text-align: center;
   margin: 25px auto;
+  font-size: 20px;
+}
+
+/* img location */
+img {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+/* reaction set */
+.reactionP {
+  float: left;
+  font-size: 17px;
+}
+#RP1 {
+  position: absolute;
+  margin-top: 20px;
+  left: 23%;
+  font-weight: bold;
+}
+#RP2 {
+  position: absolute;
+  margin-top: 20px;
+  right: 15%;
+  color: hsl(224, 30%, 27%);
+}
+
+/* memory set */
+.memoryP {
+  float: left;
+  font-size: 17px;
+}
+#MP1 {
+  position: absolute;
+  margin-top: 20px;
+  left: 23%;
+  font-weight: bold;
+}
+#MP2 {
+  position: absolute;
+  margin-top: 20px;
+  right: 15%;
+  color: hsl(224, 30%, 27%);
+}
+
+/* verbal set */
+.verbalP {
+  float: left;
+  font-size: 17px;
+}
+#ValP1 {
+  position: absolute;
+  margin-top: 20px;
+  left: 23%;
+  font-weight: bold;
+}
+#ValP2 {
+  position: absolute;
+  margin-top: 20px;
+  right: 15%;
+  color: hsl(224, 30%, 27%);
+}
+
+/* visual set */
+.visualP {
+  float: left;
+  font-size: 17px;
+}
+#VisP1 {
+  position: absolute;
+  margin-top: 20px;
+  left: 23%;
+  font-weight: bold;
+}
+#VisP2 {
+  position: absolute;
+  margin-top: 20px;
+  right: 15%;
+  color: hsl(224, 30%, 27%);
+}
+/* countinue set */
+#continueP {
+  position: absolute;
+  left: 40%;
+  margin-top: 17px;
 }
